@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git url: 'https://github.com/azyyzme01/Kaddem_DEVOPS'
+                git url: 'https://github.com/azyyzme01/Kaddem_DEVOPS.git', branch: 'main' // Adjust branch name if needed
             }
         }
 
